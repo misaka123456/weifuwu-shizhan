@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="weifuwu-mapper" />
+        <module name="weifuwu-basic" />
+        <module name="weifuwu" />
+        <module name="weifuwu-web" />
+        <module name="dubbo-interface" />
+        <module name="weifuwu-api" />
+        <module name="dubbo-consumer" />
+        <module name="dubbo-provider" />
+        <module name="weifuwu-product-service" />
+        <module name="weifuwu-background" />
+        <module name="weifuwu-entity" />
+        <module name="weifuwu-product-api" />
+        <module name="weifuwu-common" />
+        <module name="weifuwu-service" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel target="8">
+      <module name="dubbo-consumer" target="1.8" />
+      <module name="dubbo-interface" target="1.8" />
+      <module name="dubbo-provider" target="1.8" />
+      <module name="t01-dubbo-demo" target="1.8" />
+      <module name="weifuwu" target="1.5" />
+      <module name="weifuwu-api" target="1.5" />
+      <module name="weifuwu-background" target="1.8" />
+      <module name="weifuwu-basic" target="1.5" />
+      <module name="weifuwu-common" target="1.5" />
+      <module name="weifuwu-entity" target="1.5" />
+      <module name="weifuwu-mapper" target="1.5" />
+      <module name="weifuwu-product-api" target="1.5" />
+      <module name="weifuwu-product-service" target="1.8" />
+      <module name="weifuwu-service" target="1.5" />
+      <module name="weifuwu-web" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="dubbo-consumer" options="-parameters" />
+      <module name="dubbo-interface" options="-parameters" />
+      <module name="dubbo-provider" options="-parameters" />
+      <module name="weifuwu-background" options="-parameters" />
+      <module name="weifuwu-product-service" options="-parameters" />
+      <module name="weifuwu-web" options="-parameters" />
+    </option>
+  </component>
+</project>
