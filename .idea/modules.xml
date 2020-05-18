@@ -6,7 +6,6 @@
       <module fileurl="file://$PROJECT_DIR$/t01-dubbo-demo/dubbo-interface/dubbo-interface.iml" filepath="$PROJECT_DIR$/t01-dubbo-demo/dubbo-interface/dubbo-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/t01-dubbo-demo/dubbo-provider/dubbo-provider.iml" filepath="$PROJECT_DIR$/t01-dubbo-demo/dubbo-provider/dubbo-provider.iml" />
       <module fileurl="file://$PROJECT_DIR$/t01-dubbo-demo/t01-dubbo-demo.iml" filepath="$PROJECT_DIR$/t01-dubbo-demo/t01-dubbo-demo.iml" />
-      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-basic/temp/temp.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-basic/temp/temp.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-api.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background/weifuwu-background.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background/weifuwu-background.iml" />
