@@ -1,5 +1,7 @@
 package com.xiakai.common.base;
 
+import java.util.List;
+
 public interface IBaseService<T> {
 
     int deleteByPrimaryKey(Long key);
@@ -14,6 +16,5 @@ public interface IBaseService<T> {
 
     int updateByPrimaryKeySelective(T t);
 
-
-
+    List<T> list();
 }
