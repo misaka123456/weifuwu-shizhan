@@ -20,5 +20,7 @@
     <orderEntry type="library" name="Maven: tk.mybatis:mapper:4.1.5" level="project" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
     <orderEntry type="module" module-name="weifuwu-entity" />
+    <orderEntry type="library" scope="PROVIDED" name="Maven: org.projectlombok:lombok:1.18.12" level="project" />
+    <orderEntry type="library" name="Maven: com.github.pagehelper:pagehelper:3.4.2" level="project" />
   </component>
 </module>

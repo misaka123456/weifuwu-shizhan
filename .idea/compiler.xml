@@ -6,19 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="weifuwu-mapper" />
         <module name="weifuwu-basic" />
         <module name="weifuwu" />
         <module name="weifuwu-web" />
         <module name="dubbo-interface" />
         <module name="weifuwu-api" />
         <module name="dubbo-consumer" />
-        <module name="weifuwu-entity" />
+        <module name="dubbo-provider" />
         <module name="weifuwu-product-service" />
         <module name="weifuwu-background" />
-        <module name="weifuwu-mapper" />
+        <module name="weifuwu-entity" />
         <module name="weifuwu-product-api" />
         <module name="weifuwu-common" />
-        <module name="dubbo-provider" />
         <module name="weifuwu-service" />
       </profile>
     </annotationProcessing>

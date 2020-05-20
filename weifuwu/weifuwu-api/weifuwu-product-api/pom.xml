@@ -9,16 +9,40 @@
     <version>1.0-SNAPSHOT</version>
 
     <dependencies>
+        <!-- 自己的项目依赖 -->
         <dependency>
             <groupId>com.xiakai</groupId>
             <artifactId>weifuwu-common</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+        <!-- 自己的项目依赖 -->
         <dependency>
             <groupId>com.xiakai</groupId>
             <artifactId>weifuwu-entity</artifactId>
             <version>1.0-SNAPSHOT</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.12</version>
+            <scope>provided</scope>
+        </dependency>
+
+        <!-- 分页 -->
+        <dependency>
+            <groupId>com.github.pagehelper</groupId>
+            <artifactId>pagehelper</artifactId>
+            <version>3.4.2</version>
+        </dependency>
+        <!--springboot集成的分页在web模块包数据库url找不到-->
+<!--        <dependency>-->
+<!--            <groupId>com.github.pagehelper</groupId>-->
+<!--            <artifactId>pagehelper-spring-boot-starter</artifactId>-->
+<!--            <version>1.2.13</version>-->
+<!--        </dependency>-->
+
+
     </dependencies>
 
 </project>

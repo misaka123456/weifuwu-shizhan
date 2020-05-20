@@ -1,6 +1,7 @@
 package com.xiakai.weifuwu.entity;
 
 import lombok.Data;
+import tk.mybatis.mapper.annotation.KeySql;
 
 import javax.persistence.*;
 import java.io.Serializable;
@@ -9,7 +10,7 @@ import java.util.Date;
 @Data
 @Table(name = "t_product")
 public class TProduct implements Serializable {
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @KeySql(useGeneratedKeys = true)
     @Id
     private Long id;
     @Column

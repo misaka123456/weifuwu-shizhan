@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="JavaScriptLibraryMappings">
-    <file url="file://$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background" libraries="{bootstrap, bootstrap-theme}" />
+    <file url="file://$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background" libraries="{jquery}" />
   </component>
 </project>

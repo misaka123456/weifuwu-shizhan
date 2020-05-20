@@ -16,4 +16,7 @@ spring:
     url: jdbc:mysql://weifuwu.xiakai.online:3306/weifuwu
     driver-class-name: com.mysql.cj.jdbc.Driver
     username: weifuwu
-    password: 13973606039xk
+    password: weifuwu
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

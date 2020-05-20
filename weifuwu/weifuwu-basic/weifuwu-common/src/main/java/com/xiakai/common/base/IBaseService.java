@@ -17,4 +17,5 @@ public interface IBaseService<T> {
     int updateByPrimaryKeySelective(T t);
 
     List<T> list();
+
 }

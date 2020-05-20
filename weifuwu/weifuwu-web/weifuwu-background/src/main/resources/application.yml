@@ -11,3 +11,4 @@ server:
 spring:
   thymeleaf:
     suffix: .html
+    cache: false
