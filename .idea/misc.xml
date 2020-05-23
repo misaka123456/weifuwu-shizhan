@@ -1,21 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <type id="Spring" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/t01-dubbo-demo/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/pom.xml" />
-        <option value="$PROJECT_DIR$/weifuwu/weifuwu-api/pom.xml" />
-        <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/pom.xml" />
-        <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-base/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-common/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-entity/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-product-api/pom.xml" />
-        <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-product-service/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-product-service/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/weifuwu/test/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">

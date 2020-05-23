@@ -8,17 +8,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="weifuwu-mapper" />
         <module name="weifuwu-basic" />
-        <module name="weifuwu" />
-        <module name="weifuwu-web" />
-        <module name="dubbo-interface" />
+        <module name="demo" />
         <module name="weifuwu-api" />
+        <module name="dubbo-interface" />
+        <module name="test" />
         <module name="dubbo-consumer" />
-        <module name="dubbo-provider" />
+        <module name="weifuwu-web" />
         <module name="weifuwu-product-service" />
         <module name="weifuwu-background" />
         <module name="weifuwu-entity" />
         <module name="weifuwu-product-api" />
         <module name="weifuwu-common" />
+        <module name="dubbo-provider" />
         <module name="weifuwu-service" />
       </profile>
     </annotationProcessing>
@@ -33,12 +34,12 @@
       <module name="weifuwu-background" target="1.8" />
       <module name="weifuwu-basic" target="1.5" />
       <module name="weifuwu-common" target="1.5" />
-      <module name="weifuwu-entity" target="1.8" />
+      <module name="weifuwu-entity" target="1.5" />
       <module name="weifuwu-mapper" target="1.8" />
       <module name="weifuwu-product-api" target="1.5" />
       <module name="weifuwu-product-service" target="1.8" />
       <module name="weifuwu-service" target="1.5" />
-      <module name="weifuwu-web" target="1.8" />
+      <module name="weifuwu-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -49,10 +50,10 @@
       <module name="dubbo-provider" options="-parameters" />
       <module name="weifuwu-background" options="-parameters" />
       <module name="weifuwu-basic" options="" />
-      <module name="weifuwu-entity" options="-parameters" />
+      <module name="weifuwu-entity" options="" />
       <module name="weifuwu-mapper" options="-parameters" />
       <module name="weifuwu-product-service" options="-parameters" />
-      <module name="weifuwu-web" options="-parameters" />
+      <module name="weifuwu-web" options="" />
     </option>
   </component>
 </project>
