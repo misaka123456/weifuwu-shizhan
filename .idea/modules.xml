@@ -12,9 +12,15 @@
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-basic.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-basic.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-common/weifuwu-common.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-common/weifuwu-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-entity/weifuwu-entity.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-entity/weifuwu-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-index/weifuwu-index.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-index/weifuwu-index.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-item-api/weifuwu-item-api.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-item-api/weifuwu-item-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-item-service/weifuwu-item-service.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-item-service/weifuwu-item-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-mapper/weifuwu-mapper.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-mapper/weifuwu-mapper.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-product-api/weifuwu-product-api.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-product-api/weifuwu-product-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-product-service/weifuwu-product-service.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-product-service/weifuwu-product-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-search/weifuwu-search.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-search/weifuwu-search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-search-api/weifuwu-search-api.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-search-api/weifuwu-search-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-search-service/weifuwu-search-service.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-search-service/weifuwu-search-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-service.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-web.iml" filepath="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-web.iml" />
     </modules>

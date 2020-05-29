@@ -1,0 +1,24 @@
+server:
+  port: 8002
+spring:
+  data:
+    solr:
+      host: http://weifuwu.xiakai.online:8080/solr
+  datasource:
+    url: jdbc:mysql://weifuwu.xiakai.online:3306/weifuwu
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: weifuwu
+    password: weifuwu
+dubbo:
+  application:
+    name: weifuwu-search-service
+  registry:
+    protocol: zookeeper
+    address: weifuwu.xiakai.online:2181
+  protocol:
+    port: 28802
+  provider:
+    timeout: 3000
+mybatis:
+  configuration:
+    map-underscore-to-camel-case: true

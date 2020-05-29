@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+</head>
+<body>
+
+    this is 首页
+    <form id="searchFrom" action="http://127.0.0.1:9002/search/searchByKeyWord">
+        <input type="text" name="keyWord" />
+        <input type="submit" value="搜索">
+
+
+    </form>
+    <ul th:each="t : ${list}">
+        <li th:text="${t.name}"></li>
+    </ul>
+</body>
+</html>

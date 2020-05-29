@@ -13,11 +13,17 @@
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-entity/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/weifuwu-mapper/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-product-api/pom.xml" />
-        <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-basic/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/pom.xml" />
         <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-product-service/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-index/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-search-api/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-search-service/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-search/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-api/weifuwu-item-api/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-service/weifuwu-item-service/pom.xml" />
+        <option value="$PROJECT_DIR$/weifuwu/weifuwu-web/weifuwu-background/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

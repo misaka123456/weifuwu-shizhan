@@ -3,11 +3,11 @@ dubbo:
     name: weifuwu-background-service
   registry:
     protocol: zookeeper
-    address: 39.106.85.109:2181
+    address: weifuwu.xiakai.online:2181
   consumer:
     timeout: 3000
 server:
-  port: 9090
+  port: 9001
 spring:
   thymeleaf:
     suffix: .html

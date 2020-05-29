@@ -1,0 +1,14 @@
+dubbo:
+  application:
+    name: weifuwu-index-service
+  registry:
+    protocol: zookeeper
+    address: weifuwu.xiakai.online:2181
+  consumer:
+    timeout: 3000
+server:
+  port: 80
+spring:
+  thymeleaf:
+    suffix: .html
+    cache: false

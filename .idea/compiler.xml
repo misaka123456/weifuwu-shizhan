@@ -2,29 +2,35 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="weifuwu-mapper" />
+        <module name="weifuwu-search" />
         <module name="weifuwu-basic" />
         <module name="demo" />
-        <module name="weifuwu-api" />
-        <module name="dubbo-interface" />
-        <module name="test" />
-        <module name="dubbo-consumer" />
+        <module name="weifuwu-index" />
         <module name="weifuwu-web" />
-        <module name="weifuwu-product-service" />
-        <module name="weifuwu-background" />
+        <module name="dubbo-interface" />
+        <module name="weifuwu-search-api" />
+        <module name="test" />
+        <module name="weifuwu-api" />
+        <module name="dubbo-consumer" />
+        <module name="weifuwu-search-service" />
         <module name="weifuwu-entity" />
+        <module name="weifuwu-product-service" />
+        <module name="weifuwu-item-service" />
+        <module name="weifuwu-background" />
+        <module name="weifuwu-mapper" />
         <module name="weifuwu-product-api" />
+        <module name="weifuwu-item-api" />
         <module name="weifuwu-common" />
         <module name="dubbo-provider" />
         <module name="weifuwu-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8">
-      <module name="demo" target="1.8" />
       <module name="dubbo-consumer" target="1.8" />
       <module name="dubbo-interface" target="1.8" />
       <module name="dubbo-provider" target="1.8" />
@@ -35,24 +41,33 @@
       <module name="weifuwu-basic" target="1.5" />
       <module name="weifuwu-common" target="1.5" />
       <module name="weifuwu-entity" target="1.5" />
+      <module name="weifuwu-index" target="1.8" />
+      <module name="weifuwu-item-api" target="1.5" />
+      <module name="weifuwu-item-service" target="1.8" />
       <module name="weifuwu-mapper" target="1.8" />
       <module name="weifuwu-product-api" target="1.5" />
       <module name="weifuwu-product-service" target="1.8" />
+      <module name="weifuwu-search" target="1.8" />
+      <module name="weifuwu-search-api" target="1.5" />
+      <module name="weifuwu-search-service" target="1.8" />
       <module name="weifuwu-service" target="1.5" />
       <module name="weifuwu-web" target="1.5" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="demo" options="-parameters" />
       <module name="dubbo-consumer" options="-parameters" />
       <module name="dubbo-interface" options="-parameters" />
       <module name="dubbo-provider" options="-parameters" />
       <module name="weifuwu-background" options="-parameters" />
       <module name="weifuwu-basic" options="" />
       <module name="weifuwu-entity" options="" />
+      <module name="weifuwu-index" options="-parameters" />
+      <module name="weifuwu-item-service" options="-parameters" />
       <module name="weifuwu-mapper" options="-parameters" />
       <module name="weifuwu-product-service" options="-parameters" />
+      <module name="weifuwu-search" options="-parameters" />
+      <module name="weifuwu-search-service" options="-parameters" />
       <module name="weifuwu-web" options="" />
     </option>
   </component>
