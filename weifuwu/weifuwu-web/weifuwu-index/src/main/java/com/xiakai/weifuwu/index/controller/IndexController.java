@@ -24,7 +24,10 @@ public class IndexController {
     public String showIndex(Model model) {
         List<TProductType> list = productTypeService.list();
         model.addAttribute("list", list);
+
+
         return "index";
+
 
     }
 

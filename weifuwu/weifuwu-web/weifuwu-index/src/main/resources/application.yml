@@ -12,3 +12,9 @@ spring:
   thymeleaf:
     suffix: .html
     cache: false
+  rabbitmq:
+    host: 0000
+    username: 123
+    password: asdf
+    virtual-host: /ajsdfh
+    port: 4242

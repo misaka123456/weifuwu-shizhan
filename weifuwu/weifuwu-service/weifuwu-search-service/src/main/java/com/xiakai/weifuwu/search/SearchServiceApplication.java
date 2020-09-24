@@ -1,9 +1,10 @@
 package com.xiakai.weifuwu.search;
 
 import com.alibaba.dubbo.config.spring.context.annotation.EnableDubbo;
-import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.SpringApplication;
 import tk.mybatis.spring.annotation.MapperScan;
+
 
 @SpringBootApplication
 @EnableDubbo
@@ -14,5 +15,6 @@ public class SearchServiceApplication {
         SpringApplication.run(SearchServiceApplication.class, args);
 
     }
+
 
 }
